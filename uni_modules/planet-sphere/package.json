@@ -1,0 +1,70 @@
+{
+  "id": "planet-sphere",
+  "displayName": "3D星球用户展示组件",
+  "version": "1.0.0",
+  "description": "一个基于Three.js的3D星球展示组件，可以在球面上展示用户头像，支持点击交互和动画效果，适用于社交应用的用户展示场景",
+  "keywords": ["防 soul", "3D", "Three.js", "星球", "用户展示", "WebGL", "renderjs", "社交"],
+  "repository": "",
+  "engines": {
+    "HBuilderX": "^3.1.0"
+  },
+  "dcloudext": {
+    "type": "component-vue",
+    "sale": {
+      "regular": {
+        "price": "0.00"
+      },
+      "sourcecode": {
+        "price": "0.00"
+      }
+    },
+    "contact": {
+      "qq": ""
+    },
+    "declaration": {
+      "ads": "无",
+      "data": "插件不采集任何数据",
+      "permissions": "无"
+    }
+  },
+  "uni_modules": {
+    "dependencies": [],
+    "encrypt": [],
+    "platforms": {
+      "cloud": {
+        "tcb": "u",
+        "aliyun": "u"
+      },
+      "client": {
+        "App": {
+          "app-vue": "y",
+          "app-nvue": "u"
+        },
+        "H5-mobile": {
+          "Safari": "y",
+          "Android Browser": "y",
+          "微信浏览器(Android)": "y",
+          "QQ浏览器(Android)": "y"
+        },
+        "H5-pc": {
+          "Chrome": "y",
+          "IE": "u",
+          "Edge": "y",
+          "Firefox": "y",
+          "Safari": "y"
+        },
+        "小程序": {
+          "微信": "u",
+          "阿里": "u",
+          "百度": "u",
+          "字节跳动": "u",
+          "QQ": "u"
+        },
+        "快应用": {
+          "华为": "u",
+          "联盟": "u"
+        }
+      }
+    }
+  }
+} 
