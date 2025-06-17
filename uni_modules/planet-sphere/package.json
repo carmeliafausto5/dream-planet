@@ -5,14 +5,22 @@
   "version": "1.0.0",
   "description": "一个基于Three.js的3D星球展示组件，可以在球面上展示用户头像，支持点击交互和动画效果，适用于社交应用的用户展示场景",
   "keywords": [
-    "防 soul",
+    "防soul",
     "3D星球",
     "用户展示",
-    "社交"
-],
+    "社交",
+    "three.js",
+    "3d",
+    "planet",
+    "sphere",
+    "头像",
+    "微信小程序",
+    "H5",
+    "App"
+  ],
   "repository": "https://gitcode.com/weixin_47770976/planet-sphere",
   "engines": {
-    "HBuilderX": "^4.66"
+    "HBuilderX": "^3.1.0"
   },
   "dcloudext": {
     "type": "component-vue",
@@ -79,6 +87,9 @@
     }
   },
   "uni_modules": {
+    "dependencies": [
+      "three@^0.177.0"
+    ],
     "encrypt": [],
     "platforms": {
       "cloud": {
@@ -88,14 +99,14 @@
       },
       "client": {
         "Vue": {
-          "vue2": "u",
+          "vue2": "y",
           "vue3": "y"
         },
         "App": {
-            "app-vue": "y",
-            "app-nvue": "n",
-            "app-harmony": "u",
-            "app-uvue": "n"
+          "app-vue": "y",
+          "app-nvue": "n",
+          "app-harmony": "u",
+          "app-uvue": "n"
         },
         "H5-mobile": {
           "Safari": "y",
@@ -105,7 +116,7 @@
         },
         "H5-pc": {
           "Chrome": "y",
-          "IE": "u",
+          "IE": "n",
           "Edge": "y",
           "Firefox": "y",
           "Safari": "y"
@@ -133,5 +144,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "etangzeng",
-  "license": "ISC"
+  "license": "MIT"
 }
