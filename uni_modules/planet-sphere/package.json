@@ -1,13 +1,55 @@
 {
-  "id": "planet-sphere",
-  "displayName": "3D星球用户展示组件",
+  "name": "@weixin_47770976/planet-sphere",
   "version": "1.0.0",
   "description": "一个基于Three.js的3D星球展示组件，可以在球面上展示用户头像，支持点击交互和动画效果，适用于社交应用的用户展示场景",
-  "keywords": ["防 soul", "3D", "Three.js", "星球", "用户展示", "WebGL", "renderjs", "社交"],
-  "repository": "",
+  "main": "components/planet-sphere/planet-sphere.vue",
+  "keywords": [
+    "3d",
+    "threejs", 
+    "uni-app",
+    "vue",
+    "component",
+    "planet",
+    "sphere",
+    "user-display",
+    "webgl",
+    "renderjs",
+    "social",
+    "avatar",
+    "interactive"
+  ],
+  "author": "weixin_47770976",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://gitcode.com/weixin_47770976/planet-sphere.git"
+  },
+  "homepage": "https://gitcode.com/weixin_47770976/planet-sphere",
+  "bugs": {
+    "url": "https://gitcode.com/weixin_47770976/planet-sphere/issues"
+  },
+  "files": [
+    "components/",
+    "static/",
+    "readme.md",
+    "changelog.md"
+  ],
   "engines": {
+    "node": ">=12.0.0",
     "HBuilderX": "^3.1.0"
   },
+  "peerDependencies": {
+    "vue": "^2.6.0 || ^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "id": "planet-sphere",
+  "displayName": "3D星球用户展示组件",
   "dcloudext": {
     "type": "component-vue",
     "sale": {
@@ -54,7 +96,7 @@
           "Safari": "y"
         },
         "小程序": {
-          "微信": "u",
+          "微信": "y",
           "阿里": "u",
           "百度": "u",
           "字节跳动": "u",

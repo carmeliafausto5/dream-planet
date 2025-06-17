@@ -22,7 +22,29 @@
 
 - HBuilderX 3.1.0+
 - uni-app 框架
+- Node.js 12.0.0+
 - 支持 Three.js 的运行环境
+
+### 项目依赖
+
+本项目基于 **Three.js** 构建，需要安装以下依赖：
+
+#### H5 和 App 端依赖
+```bash
+# 安装 Three.js (当前项目版本)
+npm install three@^0.177.0
+
+# 或使用 yarn
+yarn add three@^0.177.0
+
+# 兼容版本范围：^0.160.0 以上
+npm install three@^0.160.0
+```
+
+#### 微信小程序端
+微信小程序端使用专门适配的 Three.js 版本，已内置在插件中：
+- `uni_modules/planet-sphere/static/three.weapp.js`
+- 无需额外安装，插件已包含
 
 ### 安装使用
 
@@ -32,11 +54,20 @@ git clone [项目地址]
 cd planet-sphere
 ```
 
-2. **导入HBuilderX**
+2. **安装依赖**
+```bash
+# 安装项目依赖（H5和App端需要）
+npm install
+
+# 如果没有 package.json，请手动安装 Three.js
+npm install three@^0.177.0
+```
+
+3. **导入HBuilderX**
    - 打开HBuilderX
    - 文件 → 导入 → 从本地目录导入
 
-3. **运行项目**
+4. **运行项目**
    - 选择运行平台（App、H5、微信小程序）
    - 点击运行按钮
 
