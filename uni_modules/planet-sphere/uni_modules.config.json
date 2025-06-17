@@ -2,7 +2,7 @@
   "id": "planet-sphere",
   "displayName": "3D星球用户展示组件",
   "description": "一个基于Three.js的3D星球展示组件，可以在球面上展示用户头像，支持点击交互和动画效果，适用于社交应用的用户展示场景",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "etangzeng",
   "keywords": [
@@ -17,11 +17,8 @@
   ],
   "repository": "https://gitcode.com/weixin_47770976/planet-sphere",
   "engines": {
-    "HBuilderX": "^3.1.0"
+    "HBuilderX": "^4.65"
   },
-  "dependencies": [
-    "three@^0.177.0"
-  ],
   "platforms": {
     "cloud": {
       "tcb": "y",
